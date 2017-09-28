@@ -1,0 +1,94 @@
+#header {
+font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+color: MediumAquamarine;
+display: flex;
+border-bottom: 2px solid black;
+width: 100%;
+margin-bottom: 30px
+}
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+nav {
+ display: flex;
+ align-items: center;
+}
+
+a {
+  color: black;
+  margin: 10px;
+}
+
+.main {
+  border: 2px solid black;
+  display: inline-flex;
+}
+
+.large {
+  border: 2px solid black;
+  width: 630px;
+  margin: 30px 15px;
+}
+
+.phish {
+  border: 2px solid black;
+  align-items: center;
+}
+
+.orca {
+  border: 2px solid black;
+  align-items: center;
+}
+
+.backwards {
+  border: 2px solid black;
+  align-items: center;
+}
+
+.burger {
+  border: 2px solid black;
+  align-items: center;
+}
+
+.cameras {
+  border: 2px solid black;
+  align-items: center;
+}
+
+.medium {
+  border: 2px solid black;
+  width: 300px;
+  margin: 30px 15px;
+}
+
+.fbi {
+  border: 2px solid black;
+  align-items: center;
+}
+
+.cats {
+  border: 2px solid black;
+  align-items: center;
+}
+
+.small {
+  border: 2px solid black;
+  width: 240px;
+  margin: 30px 15px;
+}
+
+.cookie {
+  border: 2px solid black;
+  align-items: center;
+}
+
+.emoji {
+  border: 2px solid black;
+  align-items: center;
+}
