@@ -43,6 +43,19 @@ a {
   margin: 30px 15px;
 }
 
+.story1 {
+  justify-content: space-around;
+  width: 250px;
+  flex-direction: column;
+
+}
+
+.story2 {
+  justify-content: space-around;
+  width: 250px;
+  display: inline-block;
+}
+
 .phish {
   justify-content: flex-start;
   height: 250px;
@@ -58,38 +71,26 @@ a {
 
 .orca {
   border: 2px solid black;
-  align-items: center;
   text-align: center;
-  justify-content: center;
-  width: 250px;
+
 }
 
 .backwards {
-  justify-content: center;
   height: 250px;
   border: 2px solid black;
   text-align: center;
-  align-items: center;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
-  display: inline-block;
-  width: 250px;
 }
 
 .burger {
   border: 2px solid black;
-  justify-content: center;
-  width: 250px;
   text-align: center;
 }
 
 .cameras {
-  justify-content: center;
   height: 250px;
   border: 2px solid black;
-  align-items: center;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
-  display: inline-block;
-  width: 250px;
   text-align: center;
 }
 
