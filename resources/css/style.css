@@ -44,22 +44,41 @@ a {
 }
 
 .stories {
-  flex-wrap: wrap;
+  /*
+  flex-wrap: wrap
+  This will cause the columns to stack on top of each other. We don't want that. We want the columns to be side-by-side.
+  */
+
+  display: flex;
 }
 
 .story1 {
+  /*
   justify-content: space-around;
+  This rule isn't working for us here because there is no extra space in our story1 div! If the div had extra space because
+  of a very large width or height, then this rule would come into play.
+  */
   width: 50%;
   flex-direction: column;
   display: flex;
 }
 
 .story2 {
+  /*
   justify-content: space-around;
-  width: 50%;
-  display: inline-block;
-  margin: 5%;
+  See the comment above in story1
+  */
 
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#mother {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
 }
 
 .phish {
@@ -129,14 +148,35 @@ a {
   border: 2px solid black;
   width: 240px;
   margin: 30px 15px;
+  flex-direction: column;
 }
 
 .cookie {
   border: 2px solid black;
   align-items: center;
+  width: 100%;
 }
 
 .emoji {
   border: 2px solid black;
   align-items: center;
+}
+
+.new {
+font-size: 16px;
+font-weight: bold;
+align-items: center;
+}
+
+.bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray
+}
+
+ .bites p {
+  border-top: 2px;
+  border-bottom: 2px;
+  height: 100%;
 }

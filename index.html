@@ -22,7 +22,7 @@
   <div class="main">
     <div class="large">
       <div class="phish">
-        <span class="pics">Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</span>
+        <span id="mother">Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</span>
       </div>
       <div class="monument">
         <p>MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -35,31 +35,37 @@
          Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit.
          Nulla non sagittis neque. Nullam sit amet fringilla massa.</p>
       </div>
-   </div>
-  <div class="stories">
-    <div class="story1">
-      <div class="orca">
-        <h2>Orca Spends Vacation at Land World Puget</h2>
-        <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus.
-           Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
-      </div>
-      <div class="backwards">
-        <span class="pics">Earth Spins Backwards for 2017</span>
-      </div>
-    </div>
-    <div class="story2">
-      <div class="burger">
-        <h2>Burger for Breakfast: How Early is too Early?</h2>
-        <p>Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus.
-           Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
-      </div>
-      <div class="cameras">
-        <p>Research Shows Cameras Erase Memory</p>
-      </div>
-    </div>
-    </div>
-  </div>
 
+    <!-- I moved "stories" back into the large container. -->
+    <!-- "large" acts like a large column. Everything that will exist on the left -->
+    <!-- must be inside the large column. -->
+      <div class="stories">
+        <div class="story1">
+          <div class="orca">
+            <h2>Orca Spends Vacation at Land World Puget</h2>
+            <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus.
+               Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
+          </div>
+          <div class="backwards">
+            <span class="pics">Earth Spins Backwards for 2017</span>
+          </div>
+        </div>
+        <div class="story2">
+          <div class="burger">
+            <h2>Burger for Breakfast: How Early is too Early?</h2>
+            <p>Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus.
+               Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
+          </div>
+          <div class="cameras">
+            <p>Research Shows Cameras Erase Memory</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- I also moved "medium" back under main -->
+    <!-- Medium is the middle column, and belongs within the main container -->
+    <!-- This is because "Main should contain all of the website's "main" content -->
     <div class="medium">
       <div class="fbi">
       <h2>FBI Finds Action Star Guilty of False Advertising</h2>
@@ -79,10 +85,9 @@
           nulla scelerisque sollicitudin lobortis, dui est sodales sapien, a vestibulum velit diam eget felis.
           Vivamus dignissim lacinia dolor, quis commodo tellus pellentesque in.</p>
       </div>
+  </div>
 
-    </div>
-
-
+      <!-- Also "small" should be under main as well. -->
     <div class="small">
       <div class="cookie">
       <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png" alt="">
@@ -91,7 +96,25 @@
       <p>Cat Emoji Goes Viral Buy Youtube Views Home Business Advertising Ideas Advertising Internet Online Illustration
          in Marketing Materials Finally a Top Secret Way You Can</p>
       </div>
+      <div class="new">
+        <h3>New bites</h3>
+      </div>
+      <div class="bites">
+        
+          <p>Cat Emoji Goes Viral</p>
+          <p>Buy Youtube Views</p>
+          <p>Advertising Internet Online</p>
+          <p>Illustration in Marketing Materials</p>
+          <p>Finally a Top Secret Way You Can</p>
+
+      </div>
     </div>
+
   </div>
+   </div>
+
+
+
+
   </body>
 </html>
